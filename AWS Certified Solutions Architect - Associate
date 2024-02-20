@@ -1,0 +1,42 @@
+AWS INTERVIEW QUESTIONS
+
+1.How to ensure you do not go over a certain budget for AWS bill?
+
+To ensure you do not exceed a certain budget for your AWS bill, you can 
+
+Set Budgets in AWS Budgets: AWS provides a service called AWS Budgets that allows you to set cost and usage budgets for your AWS resources. 
+You can define specific thresholds and receive email or SMS notifications when your actual costs or usage exceed those thresholds. 
+This helps you stay informed about your spending and take timely actions to control costs.
+
+Monitor and Analyze Cost and Usage: Utilize AWS Cost Explorer, a tool provided by AWS, to monitor and analyze your costs and usage patterns.
+
+Remember, controlling costs in AWS is an ongoing process. Regularly monitor, analyze, 
+and optimize your resource usage to ensure you stay within your budgetary limits and maximize cost-efficiency.
+
+Reserved Instances and Savings Plans: Consider utilizing AWS Reserved Instances (RIs) or Savings Plans for long-term workloads with predictable usage.
+These options offer significant discounts compared to on-demand instances. By planning your resource usage and leveraging reserved capacity, 
+you can reduce costs over time.
+
+Resource Optimization: Regularly review your resource utilization and identify opportunities for optimization. 
+This includes rightsizing instances, terminating unused or idle resources, leveraging auto-scaling to match resource capacity with demand, 
+and utilizing managed services that can provide cost savings compared to running and managing your own infrastructure.
+
+Use Cost-effective Services and Pricing Models: Explore AWS services and pricing models that offer cost savings for your specific use case. 
+For example, consider using AWS Lambda for serverless computing or Amazon S3 storage classes that suit your data access patterns and cost requirements.
+
+Implement Cost Control Measures: Implement cost control measures within your organization, such as establishing budgetary policies, 
+educating teams about cost-awareness, and implementing resource utilization guidelines. 
+This fosters a cost-conscious culture and encourages responsible resource usage.
+
+
+2.What is the alternative of doing everything from console?
+
+The alternative to performing all actions from the AWS Management Console is to use infrastructure-as-code (IaC) tools such as AWS CloudFormation, 
+AWS CDK (Cloud Development Kit), or third-party tools like Terraform. These tools allow you to define your infrastructure and application resources in code,
+ which can be version-controlled, automated, and executed programmatically.
+
+Here are the main alternatives to using the AWS Management Console:
+
+AWS CloudFormation: AWS CloudFormation is a service that enables you to define your infrastructure and application resources in YAML or JSON templates.
+ You can describe your desired resources and their configurations, and CloudFormation provisions and manages those resources automatically. 
+CloudFormation templates can be version-controlled, shared, and deployed using the AWS CLI, SDKs, or the CloudFormation console.
